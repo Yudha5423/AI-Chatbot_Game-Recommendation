@@ -5,7 +5,7 @@ from langchain_groq import ChatGroq
 from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
 
 
-st.title("Game Recommendation ChatBot")
+st.title("🎮 Game Recommendation ChatBot")
 
 # Check apakah API key sudah ada?
 if "GROQ_API_KEY" not in os.environ:
